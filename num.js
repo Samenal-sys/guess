@@ -2,7 +2,7 @@
 
 let secretNumber;
 let attemptsLeft;
-
+ // i need to change the file
 function start() {
     secretNumber = Math.floor(Math.random() * 100) + 1;
     attemptsLeft = 10;
