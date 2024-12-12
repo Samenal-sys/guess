@@ -1,4 +1,5 @@
 
+
 let secretNumber;
 let attemptsLeft;
 
@@ -10,7 +11,7 @@ function start() {
     document.getElementById("estim").disabled = false;
     document.getElementById("guess").disabled = false;
     const access = localStorage.getItem("lost");
-    if (access == 1) then {
+    if (access == 1) {
         alert("nuh uh buddy you lost the test and arent sigma");
         window.close();
     }
