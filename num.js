@@ -13,7 +13,7 @@ function start() {
     const access = localStorage.getItem("lost");
     if (access == 1) {
         alert("nuh uh buddy you lost the test and arent sigma");
-        window.close();
+        window.location.href="about:blank";
     }
 
 }
@@ -38,7 +38,7 @@ function guess() {
         document.getElementById("estim").value = ""
         document.getElementById("guess").disabled = true;
         alert("banned from playing");
-        window.close();
+        window.location.href="about:blank";
         
     } else {
         let hint = guess < secretNumber ? "higher" : "lower";
